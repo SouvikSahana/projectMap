@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Find the distance between two places</h1>
+            <p>This app will help you calculate your travelling distance</p>
+            <form >
+                <label for="starting"><i class="material-icons">adjust</i></label>
+                <input type="text" id="starting" class="input_value" placeholder="Origin">
+                <br>
+                <label for="destination"><i class="material-icons">location_on</i></label>
+                <input type="text" id="destination" class="input_value" placeholder="Destination">
+            </form>
+            <div class="getData">
+                <button><i class="material-icons" style="color: white;">near_me</i></button>
+            </div>
+        </div>
+
+        <div class="maper">
+            <div class="googleMap"></div>
+            <div class="output"></div>
+        </div>
+    </div>
+
+    <!-- <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDms387_HwwvEIu4Y8sP1NbvFrjML727sg&callback=initMap&libraries=&v=weekly"
+      async
+    ></script> -->
+    <script src="index.js"></script>
+</body>
+</html>
